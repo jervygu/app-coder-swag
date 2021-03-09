@@ -10,6 +10,7 @@
 		117BBAA125F73CC200166B16 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117BBAA025F73CC200166B16 /* DataService.swift */; };
 		117BBAA525F7623800166B16 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117BBAA425F7623800166B16 /* ProductCell.swift */; };
 		117BBAA825F7649400166B16 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117BBAA725F7649400166B16 /* Product.swift */; };
+		117BBAAD25F76ABF00166B16 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117BBAAC25F76ABF00166B16 /* ProductsVC.swift */; };
 		11EBB25425F72C6400610F20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EBB25325F72C6400610F20 /* AppDelegate.swift */; };
 		11EBB25625F72C6400610F20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EBB25525F72C6400610F20 /* SceneDelegate.swift */; };
 		11EBB25825F72C6400610F20 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EBB25725F72C6400610F20 /* CategoriesVC.swift */; };
@@ -24,6 +25,7 @@
 		117BBAA025F73CC200166B16 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		117BBAA425F7623800166B16 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		117BBAA725F7649400166B16 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		117BBAAC25F76ABF00166B16 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 		11EBB25025F72C6400610F20 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11EBB25325F72C6400610F20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11EBB25525F72C6400610F20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				11EBB25725F72C6400610F20 /* CategoriesVC.swift */,
+				117BBAAC25F76ABF00166B16 /* ProductsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				11EBB25625F72C6400610F20 /* SceneDelegate.swift in Sources */,
 				117BBAA525F7623800166B16 /* ProductCell.swift in Sources */,
 				11EBB26E25F7348000610F20 /* CategoryCell.swift in Sources */,
+				117BBAAD25F76ABF00166B16 /* ProductsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
