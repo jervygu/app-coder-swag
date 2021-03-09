@@ -98,7 +98,7 @@
                                 <rect key="frame" x="16" y="30" width="283" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="Btm-iN-dUI"/>
-                                    <constraint firstAttribute="width" constant="283" id="ea2-B3-lGN"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="283" id="ea2-B3-lGN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <nil key="textColor"/>
