@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		117BBAA125F73CC200166B16 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117BBAA025F73CC200166B16 /* DataService.swift */; };
 		11EBB25425F72C6400610F20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EBB25325F72C6400610F20 /* AppDelegate.swift */; };
 		11EBB25625F72C6400610F20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EBB25525F72C6400610F20 /* SceneDelegate.swift */; };
 		11EBB25825F72C6400610F20 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EBB25725F72C6400610F20 /* CategoriesVC.swift */; };
@@ -14,9 +15,11 @@
 		11EBB25D25F72C6500610F20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11EBB25C25F72C6500610F20 /* Assets.xcassets */; };
 		11EBB26025F72C6500610F20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11EBB25E25F72C6500610F20 /* LaunchScreen.storyboard */; };
 		11EBB26E25F7348000610F20 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EBB26D25F7348000610F20 /* CategoryCell.swift */; };
+		11EBB27225F73A5300610F20 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EBB27125F73A5300610F20 /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		117BBAA025F73CC200166B16 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		11EBB25025F72C6400610F20 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11EBB25325F72C6400610F20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11EBB25525F72C6400610F20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		11EBB25F25F72C6500610F20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11EBB26125F72C6500610F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11EBB26D25F7348000610F20 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		11EBB27125F73A5300610F20 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		117BBA9F25F73CAA00166B16 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				117BBAA025F73CC200166B16 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		11EBB24725F72C6400610F20 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 		11EBB25225F72C6400610F20 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				117BBA9F25F73CAA00166B16 /* Services */,
 				11EBB26A25F733D900610F20 /* Model */,
 				11EBB26B25F733E000610F20 /* View */,
 				11EBB26925F733CB00610F20 /* Controller */,
@@ -82,6 +95,7 @@
 		11EBB26A25F733D900610F20 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				11EBB27125F73A5300610F20 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,7 +179,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				11EBB25825F72C6400610F20 /* CategoriesVC.swift in Sources */,
+				11EBB27225F73A5300610F20 /* Category.swift in Sources */,
 				11EBB25425F72C6400610F20 /* AppDelegate.swift in Sources */,
+				117BBAA125F73CC200166B16 /* DataService.swift in Sources */,
 				11EBB25625F72C6400610F20 /* SceneDelegate.swift in Sources */,
 				11EBB26E25F7348000610F20 /* CategoryCell.swift in Sources */,
 			);

@@ -11,16 +11,29 @@ class CategoryCell: UITableViewCell {
     
     @IBOutlet weak var categoryImg : UIImageView!
     @IBOutlet weak var categoryTitle : UILabel!
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    
+    
+    func updateViews(category: Category) {
+        categoryImg.image = UIImage(named: category.imgName)
+        categoryTitle.text = category.title
+        
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+    
+    
+    
+    
+    
+    
+//    override func awakeFromNib() {
+//        super.awakeFromNib()
+//        // Initialization code
+//    }
+//
+//    override func setSelected(_ selected: Bool, animated: Bool) {
+//        super.setSelected(selected, animated: animated)
+//
+//        // Configure the view for the selected state
+//    }
 
 }
